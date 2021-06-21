@@ -12,6 +12,11 @@ process.stdin.on('data', (data) => {
 })
 
 */
+process.stdout.write('prompt > ');
 
 const pwdFunc = require('./pwd');
 pwdFunc();
+
+const catFunc = require('./cat');
+catFunc();
+
